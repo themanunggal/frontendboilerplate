@@ -1,0 +1,45 @@
+{
+  "name": "devinit",
+  "version": "1.0.0",
+  "description": "Theme for plain frontend website",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config=webpack.dev.js",
+    "start:dev": "webpack-dev-server --config=webpack.dev.js"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-async-to-promises": "^1.0.5",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^3.0.0",
+    "ejs": "^2.6.2",
+    "ejs-html-loader": "^4.0.1",
+    "ejs-webpack-loader": "^2.2.2",
+    "extract-loader": "^3.1.0",
+    "file-loader": "^4.0.0",
+    "html-loader": "^0.5.5",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "bootstrap": "^4.3.1",
+    "copy-webpack-plugin": "^5.0.3",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL"
+}
